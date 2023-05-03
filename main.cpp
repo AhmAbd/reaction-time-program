@@ -3,7 +3,6 @@
 #include <cstdint>
 #include <ctime>
 #include <cstdlib>
-
 using namespace std;
 
   uint64_t highScore = 999999;
@@ -64,6 +63,7 @@ using namespace std;
       reactionTime();
       break;
       case 2:
+      cout << "Exiting..."
       exit(0);
       break;
     }
