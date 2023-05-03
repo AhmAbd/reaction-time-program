@@ -46,9 +46,10 @@ using namespace std;
     last = secondtime - firsttime;
     cout << "Your reaction time is " << last << " ms." << endl;
   }
-
+  
   void showMenu() {
     int input1;
+    // test
     while(input1 != 1 && input1 != 2) {
       cout << "Choose one of the options:" << endl <<"1. Reaction Time tester" << endl << "2. Exit Program" << endl;
       cin >> input1;
