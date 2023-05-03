@@ -4,7 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 using namespace std;
-  //Test
+
   uint64_t highScore = 999999;
 
   uint64_t timeSinceEpochMillisec() {
