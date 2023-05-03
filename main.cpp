@@ -6,6 +6,8 @@
 
 using namespace std;
 
+  uint64_t highScore = 999999;
+
   uint64_t timeSinceEpochMillisec() {
   using namespace std::chrono;
   return duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
@@ -44,7 +46,11 @@ using namespace std;
     getline(cin, input);
     secondtime = timeSinceEpochMillisec();
     last = secondtime - firsttime;
-    cout << "Your reaction time is " << last << " ms." << endl;
+    if(last < highScore || highScore == 0) {
+      highScore = last;
+    }
+    cout << endl << endl << endl << "Your reaction time is " << last << " ms." << endl;
+    cout << "Highscore: " << highScore << endl << endl;
   }
 
   void showMenu() {
