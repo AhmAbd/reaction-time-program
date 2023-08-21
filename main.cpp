@@ -36,8 +36,8 @@ using namespace std;
     srand(time(NULL));
     uint64_t random_num;
     string input;
-    cout << "Please wait for a prompt to click enter and view your reaction time. The prompt will appear randomly within the next 3 to 15 seconds";
-    cout << endl << "THE PROGRAM WILL NOT WORK PROPERLY IF YOU PRESS BEFORE YOU GET THE PROMPT!" << endl << endl;
+    cout << "Please wait for a prompt to click enter and view your reaction time. The prompt will appear randomly within the next 3 to 15 seconds 🤓🤓🤓🤓🤓";
+    cout << endl << "THE PROGRAM WILL NOT WORK PROPERLY IF YOU PRESS BEFORE YOU GET THE PROMPT! 🤓🤓🤓🤓" << endl << endl;
     endloopbetween3and15secs();
     fflush(stdin);
     cout << "CLICK NOW";
@@ -56,7 +56,7 @@ using namespace std;
     int input1;
     // test
     while(input1 != 1 && input1 != 2) {
-      cout << "Choose one of the options:" << endl <<"1. Reaction Time tester" << endl << "2. Exit Program" << endl;
+      cout << "Choose one of the options:🤓🤓🤓🤓" << endl <<"1. Reaction Time tester🤓🤓🤓🤓" << endl << "2. Exit Program🤓🤓🤓🤓" << endl;
       cin >> input1;
     }
     switch(input1) {
@@ -64,7 +64,7 @@ using namespace std;
       reactionTime();
       break;
       case 2:
-      cout << "Exiting..."
+      cout << "Exiting...🤓🤓🤓🤓"
       exit(0);
       break;
     }
